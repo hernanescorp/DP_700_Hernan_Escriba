@@ -10,8 +10,8 @@ import time
 import json
 
 # Replace the placeholders with your Event Hubs connection string and event hub name
-EVENTHUB_NAME = 'es_0d383749-fd0d-4fdf-b5aa-46598cd83c08'
-CONNECTION_STR = 'Endpoint=sb://esehdbos9k5azx62clbh4o.servicebus.windows.net/;SharedAccessKeyName=key_dd13243e-a0ad-43d1-a0dc-69534b293236;SharedAccessKey=KspMfooLxQybiz2Yym6ZLUkZb63ibk+8v+AEhMrsKEk=;EntityPath=es_0d383749-fd0d-4fdf-b5aa-46598cd83c08'
+EVENTHUB_NAME = 'XXXX'
+CONNECTION_STR = 'XXXXX'
 
 
 # Configuration variables
@@ -108,4 +108,5 @@ except Exception as e:
     print(f"Error: {e}")
 finally:
     # Close the producer
+
     producer.close()
